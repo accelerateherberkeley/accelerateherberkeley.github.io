@@ -40,6 +40,11 @@ p.intro {
 	line-height: 24px;
 }
 
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
 a {
 	color: #608dfd;
 	font-weight: 400;
@@ -207,7 +212,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	background-size: cover;
+	background-size: contain;
 	-o-background-size: cover;
 }
 .intro .overlay {
