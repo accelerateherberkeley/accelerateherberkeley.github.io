@@ -194,19 +194,21 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 /* Header Section */
+#header {
+    height: 630px !important;
+}
 
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0616 (1).JPG) center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0616.JPG) center center no-repeat;
 	background-attachment: fixed;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	height: 500px;
 }
 .intro .overlay {
 	background: rgba(0,0,0,0.2);
@@ -217,8 +219,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 40px;
 	font-weight: 650;
 	text-transform: uppercase;
-	margin-top: 0;
-	margin-bottom: 6px;
+	margin-top: -200px;
+	margin-bottom: 10px;
 }
 .intro h1 span {
 	font-weight: 800;
@@ -241,8 +243,6 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	font-size: 22px;
 	font-weight: 300;
 	line-height: 30px;
-	margin: 0 auto;
-	margin-bottom: 60px;
 }
 
 
@@ -488,7 +488,7 @@ color: #777;
 		display: table;
 		width: 100%;
 		padding: 0;
-		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0588 (1).JPG) center center no-repeat;
+		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0588.JPG) center center no-repeat;
 		background-attachment: fixed;
 		background-color: #e5e5e5;
 		-webkit-background-size: cover;
@@ -502,7 +502,7 @@ color: #777;
 		display: table;
 		width: 100%;
 		padding: 0;
-		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/IMG-0617 (1).JPG) center center no-repeat;
+		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0617.JPG) center center no-repeat;
 		background-attachment: fixed;
 		background-color: #e5e5e5;
 		-webkit-background-size: cover;
@@ -516,14 +516,14 @@ color: #777;
 		display: table;
 		width: 100%;
 		padding: 0;
-		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0588 (1).JPG) center center no-repeat;
+		background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/header/IMG-0617.JPG) center center no-repeat;
 		background-attachment: fixed;
 		background-color: #e5e5e5;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		background-size: cover;
 		-o-background-size: cover;
-		height: 250px;
+		height: 300px;
 }
 
 .dropbtn {
