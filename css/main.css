@@ -27,6 +27,7 @@ h6 {
 
 a {
     color: #000;
+    float: right;
 }
 
 a:hover {
