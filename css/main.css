@@ -30,7 +30,7 @@ a {
 }
 
 h3 a{
-    float:right;
+    text-align:center;
 }
 
 a:hover {
