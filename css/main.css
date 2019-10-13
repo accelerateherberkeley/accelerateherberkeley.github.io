@@ -55,16 +55,12 @@ ul > li {
     list-style: none;
 }
 
-.btn-primary {
-	
+.btn {
+	transition: 0.5s;
 }
 
-.btn-primary:focus {
-    box-shadow: none;
-}
-
-.btn-primary:not(:disabled):not(.disabled):active:focus {
-    box-shadow: none;
+.flex {
+	display: flex;
 }
 
 /*======
@@ -170,28 +166,28 @@ nav {
 
 .section-1 {
     width: 100%;
-    height: auto;
+    padding: 75px 0;
+    height: 500px;
 }
 
 .section-1 .col-xs-6 {
 	position: absolute;
 	top: 25%;
-	max-width: 40%;
+	max-width: 50%;
 }
 
 .section-1 .col-xs-6#col-1 {
-	left: 20%;
+	left: 10%;
 }
 
 .section-1 .col-xs-6#col-2 {
-	right: 20%;
+	right: 10%;
 	text-align: right;
 	padding: 50px;
 }
 
 .section-1 .col-xs-6#col-2 h1 {
 	color: #545454;
-	font-size: 2.2rem;
 }
 
 .section-1 .col-xs-6#col-2 p {
@@ -200,7 +196,7 @@ nav {
 }
 
 .section-1 img {
-	height: 250px;
+	width: 40%;
 }
 
 
@@ -330,16 +326,33 @@ nav {
 .section-4 {
     width: 100%;
     height: auto;
-    padding: 0 0 75px 0;
-    border-bottom: 1px solid #e5e5e5;
+    margin-top: 75px;
 }
 
 .section-4 .row {
-	margin: 50px 0;
+	padding: 50px 10%;
+	min-height: 500px;
+}
+
+.section-4 .row#row-1, .section-4 .row#row-5 {
+	background: rgba(255, 255, 255, 1);
+}
+
+.section-4 .row#row-3 {
+	padding-bottom: 100px;
+}
+
+.section-4 .row .col-sm-6 {
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .section-4 .col-xs-12 {
 	text-align: center;
+	background: rgba(255, 255, 255, 1);
+    padding: 50px 25px;
+    margin: 10px;
+    max-width: 31%;
 }
 
 .section-4 h3 {
@@ -364,8 +377,16 @@ nav {
     padding-bottom: 10px;
 }
 
-.section-4 .box-3 p, .section-4 .box-5 p {
+.section-4 .box-3 {
+	text-align: right;
+}
+
+.section-4 p {
 	font-size: 1.1em;
+}
+
+.section-4 .box-6, .section-4 .box-7 {
+	margin: auto;
 }
 
 .section-4 .box-6 ul.sponsor-list {
@@ -374,7 +395,7 @@ nav {
 
 .section-4 .box-6 ul.sponsor-list li {
 	display: inline-block;
-	width: 15%;
+	margin: 25px;
 }
 
 .section-4 .box-6 ul.sponsor-list li img {
@@ -385,14 +406,8 @@ nav {
 	text-align: center;
 }
 
-.section-4 .heading .btn-success {
-    color: #fff;
-    padding: 12px 35px;
-    letter-spacing: 1px;
-    border-radius: 0;
-    background-color: #9C76FF;
-    border-color: #9C76FF;
-    text-transform: uppercase;
+.section-4 .box-7 .flex {
+	padding: 10px 0;
 }
 
 .section-4 .btn-success {
@@ -404,15 +419,16 @@ nav {
 }
 
 .section-4 .btn-success:hover,
+.section-4 .btn-success.outline:hover,
 .btn-success:not(:disabled):not(.disabled):active {
     background-color: #8766DD;
     border: 1px solid #8766DD;
+    color: #fff;
 }
 
-.section-4 .heading .btn-success:hover {
-    color: #fff;
-    background-color: #8766DD;
-    border: 1px solid #8766DD;
+.section-4 .btn-success.outline {
+	color: #9C76FF;
+	background: none;
 }
 
 .section-4 figure figcaption p {
@@ -439,7 +455,7 @@ nav {
 .section-4 .box-2 figure,
 .section-4 .box-4 figure,
 .section-4 .box-6 figure {
-    margin: 0 0 55px;
+    /* margin: 0 0 55px; */
 }
 
 .section-4 h4 {
@@ -463,13 +479,10 @@ nav {
   height: 80px;
   padding: 20px 20px 20px 20px;
   border-radius: 50%;
-  background: linear-gradient(to right, #0081D5 0%, #0061a0 100%);
+  background: #9C76FF;
   box-shadow: 10px 10px 10px rgba(0,0,0,.05);
   }
 
-.section-4 i.fa:hover {
-    background: linear-gradient(to right, #d79f42 0%, #fff 100%);
-}
 /*=============================
      Section-5 Styles
 =============================*/
@@ -782,7 +795,7 @@ nav {
 
 .footer-copyright {
     position: relative;
-    background-color: #AACEEB;
+    background-color: none;
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -791,13 +804,13 @@ nav {
 
 .footer-copyright p {
     font-size: 16px;
+    color: 777;
     font-weight: 500;
-    color: #ffffff;
     position: relative;
     text-transform: uppercase;
     padding: 40px 0;
     margin-bottom: 0;
-}
+}	
 
 .footer-copyright p a {
     color: #8dc63f;
