@@ -57,6 +57,7 @@ ul > li {
 
 .btn {
 	transition: 0.5s;
+	margin: 5px;
 }
 
 .flex {
