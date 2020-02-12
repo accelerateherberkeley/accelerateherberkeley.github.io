@@ -26,7 +26,7 @@ h6 {
 }
 
 a {
-    color: #000;
+    color: #757575;
 }
 
 h3 a{
@@ -38,7 +38,7 @@ h3 a:hover {
 }
 
 a:hover {
-    color: #000;
+    color: #757575;
     text-decoration: none;
 }
 
@@ -354,10 +354,45 @@ nav {
     margin-top: 75px;
 }
 
+.section-4 a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
 .section-4 .row {
 	padding: 50px 10%;
 	background: #fff;
 }
+.section-4 .row#comms {
+	padding: 50px 10%;
+	background-color: #AACEEB;
+}
+.section-4 .row#finance {
+	padding: 50px 10%;
+	background-color: rgba(255, 255, 255, .5);
+
+}
+
+.section-4 .row#innovation {
+	padding: 50px 10%;
+	background-color: rgba(255, 255, 255, .5);
+
+}
+
+.section-4 .row#marketing {
+	padding: 50px 10%;
+	background-color: rgba(255, 255, 255, .5);
+
+}
+
+.section-4 .row#profdev {
+	padding: 50px 10%;
+	background-color: rgba(255, 255, 255, .5);
+
+}
+
 
 .section-4.home .row {
     background: none;
@@ -533,6 +568,14 @@ nav {
   background: #9C76FF;
   box-shadow: 10px 10px 10px rgba(0,0,0,.05);
   }
+
+.section-4 ol > li a:hover {
+    color: #AACEEB;
+}
+
+.section-4 ul > li a:hover {
+    color: #AACEEB;
+}
 
 /*=============================
      Section-5 Styles
